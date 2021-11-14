@@ -2,7 +2,7 @@
 ----
 
 <div align="center">
-  <img src="https://github.com/AkinYongSoftwre/TgEglenceBot/rw/master/logo.png" width="300" height="300">
+  <img src="https://imgyukle.com/f/2021/11/14/kBak7Y.jpg" width="300" height="300">
   <h1>Telegram Doğruluk mu? Cesaret mi? Oyun Botu</h1>
 </div>
 <p align="center">
