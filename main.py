@@ -28,7 +28,7 @@ K_G = Client(
 
 # Start Buttonu İcin Def Oluşturalım :)
 def button():
-	BUTTON=[[InlineKeyboardButton(text="💻 Developer ",url="t.me/SakirBey1")]]
+	BUTTON=[[InlineKeyboardButton(text="Support ",url="t.me/gycyolcu")]]
 	BUTTON+=[[InlineKeyboardButton(text="Sahibim",url="t.me/evetbenim38")]]
 	return InlineKeyboardMarkup(BUTTON)
 
@@ -37,7 +37,7 @@ def button():
 async def _(client, message):
 	user = message.from_user # Kullanıcın Kimliğini Alalım
 
-	await message.reply_text(text="**Merhaba {}!**\n\n__Ben Pyrogram Api İle Yazılmış Eğlence Botuyum :)__\n\n**Repom =>** [Bot'un sahibi ile iletişime geçin](https://t.me/Evetbenim38)\nDoğruluk mu? Cesaret mi? Oyun Komutu => /dc".format(
+	await message.reply_text(text="**Merhaba {}!**\n\n__Ben Pyrogram Api İle Yazılmış Eğlence Botuyum :)__\n\n**Sahibim =>** [Bot'un sahibi ile iletişime geçin](https://t.me/Evetbenim38)\nDoğruluk mu? Cesaret mi? Oyun Komutu => /dc".format(
 		user.mention, # Kullanıcı'nın Adı
 		),
 	disable_web_page_preview=True, # Etiketin Önizlemesi Olmaması İcin Kullanıyoruz
