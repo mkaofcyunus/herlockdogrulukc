@@ -1,7 +1,6 @@
 {
   "name": " HerlockEğlence Bot",
   "description": "Pyrogram İle Yazılmış Bir Eğlence Botu",
-  "repository": "https://github.com/herlockexe/herlockdogrulukc",
   "logo": "https://telegramchannels.me/storage/medi-logo/201/dcgamebot.jpg",
   "keywords": ["telegram", "game", "pyrogram","telegram bot"],
   "env": {
