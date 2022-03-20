@@ -6,7 +6,7 @@
   <h1>Telegram Doğruluk mu? Cesaret mi? Oyun Botu</h1>
 </div>
 <p align="center">
-        <a href="https://t.me/Helbestbot">~Bot~</a>
+        <a href="https://t.me/xdogruluk_bot">~Bot~</a>
 </p>
 
 ----
@@ -16,7 +16,7 @@
 
 # Heroku'da Clonlamak
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/herlockexe/herlockdogrulukc)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/mkaofcyunus/herlockdogrulukc)
 
 ## Alanları Doldurma
 * ``BOT_TOKEN``: Botunuzun tokeni t.me/botfather alınız!
@@ -41,12 +41,12 @@ async def _(client, message):
 ```
 
 # İletişim
-Şikayet, bağış v.b. için benim ile telegram'dan iletişime geç [SakirBey](https://t.me/SakirBey1)
+Şikayet, bağış v.b. için benim ile telegram'dan iletişime geç [aliBey](https://t.me/alibeyiniz)
 
 
 # Credit
 Thanks for;
 
-[SakirBey](https://github.com/SakirBey1)
+[yunusBey](https://github.com/mkaofcyunus)
 
 [Dan](https://telegram.dog/haskell) [Pyrogram Library](https://github.com/pyrogram/pyrogram) Kütüphanesi için
