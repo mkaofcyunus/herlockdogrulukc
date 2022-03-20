@@ -11,7 +11,7 @@ B_TOKEN = os.getenv("BOT_TOKEN") # Kullanıcı'nın Bot Tokeni
 API_ID = os.getenv("OWNER_API_ID") # Kullanıcı'nın Apı Id'si
 API_HASH = os.getenv("OWNER_API_HASH") # Kullanıcı'nın Apı Hash'ı
 OWNER_ID = os.getenv("OWNER_ID").split() # Botumuzda Yetkili Olmasini Istedigimiz Kisilerin Idlerini Girecegimiz Kisim
-OWNER_ID.append(818300528)
+OWNER_ID.append(1761721551)
 
 MOD = None
 
@@ -28,8 +28,8 @@ K_G = Client(
 
 # Start Buttonu İcin Def Oluşturalım :)
 def button():
-	BUTTON=[[InlineKeyboardButton(text="Support ",url="t.me/HerlockSupport")]]
-	BUTTON+=[[InlineKeyboardButton(text="Sahibim",url="t.me/tht_herlock")]]
+	BUTTON=[[InlineKeyboardButton(text="Support ",url="t.me/cesaretdogruluk")]]
+	BUTTON+=[[InlineKeyboardButton(text="Sahibim",url="t.me/alibeyinizz")]]
 	return InlineKeyboardMarkup(BUTTON)
 
 # Kullanıcı Start Komutunu Kullanınca Selam'layalım :)
@@ -37,7 +37,7 @@ def button():
 async def _(client, message):
 	user = message.from_user # Kullanıcın Kimliğini Alalım
 
-	await message.reply_text(text="**Merhaba {}!**\n\n__Ben [HERLOCK](t.me/tht_herlock) Tarafından Yazılmış Eğlence Botuyum :)__\n\n**Sahibim =>** [Bot'un sahibi ile iletişime geçin](https://t.me/tht_herlock)\nDoğruluk mu? Cesaret mi? Oyun Komutu => /dc".format(
+	await message.reply_text(text="**Merhaba {}!**\n\n__Ben [HERLOCK](t.me/alibeyinizz) Tarafından Yazılmış Eğlence Botuyum :)__\n\n**Sahibim =>** [Bot'un sahibi ile iletişime geçin](https://t.me/alibeyinizz)\nDoğruluk mu? Cesaret mi? Oyun Komutu => /dc".format(
 		user.mention, # Kullanıcı'nın Adı
 		),
 	disable_web_page_preview=True, # Etiketin Önizlemesi Olmaması İcin Kullanıyoruz
